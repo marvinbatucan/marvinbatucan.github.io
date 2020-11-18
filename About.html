@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./css/aboutstyle.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo"><img src="20201117_142751.jpg"></li>
+        <li class="items"><a href="index.html">Home</a></li>
+        <li class="items"><a href="shop.html">Shop</a></li>
+        <li class="items"><a href="About.html">About Us</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+<br>
+<br>
+<br>
+ <div class="aboutus">
+ <h1>About Us</h1>
+ <p>Coffee House is established 1982 in Cebu City.</p>
+ <p>If you have any concerns feel free to contact to our team.</p>
+ </div>
+ <h2 style="text-align:left">Our Team</h2>
+ <div class="row">
+ <div class="column">
+ <div class="card">
+ <img src="./assets/fbimage.jpg" alt="devs" style="width:100%">
+ <div class="container">
+ <h2>Marvin D. Batucan</h2>
+ <p class="title">Developer</p>
+ <p>mmr123bat@gmail.com</p>
+ <p><a href="Contact.html" class="mybutton">Send us a message</a></p>
+ </div>
+ </div>
+ </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo"><img src="20201117_142751.jpg"></li>
+        <li class="items"><a href="index.html">Home</a></li>
+        <li class="items"><a href="shop.html">Shop</a></li>
+        <li class="items"><a href="About.html">About Us</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+<br>
+<br>
+<br>
+<h1 id="head" align="center">SHOP</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Products-->
+<div class="cards">
+        <div class="card card1">
+            <div class="container">
+                <img src="./assets/caramel.jpg" class="img1" alt="caramel">
+            </div>
+            <div class="details">
+                <h3>Caramel ₱80</h3>
+                <p>The recipe is simply a combination of brewed coffee and warmed milk infused with caramel and brown sugar.</p>
+                <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="container">
+                <img src="./assets/latte.jpg" class="img1" alt="Latte">
+            </div>
+            <div class="details">
+                <h3>Coffee Latte ₱80</h3>
+                <p>A latte is a coffee drink that is normally made with espresso, steamed milk, and milk foam. </p>
+                <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="container">
+                <img src="./assets/mochaa.jpeg" class="img1" alt="mocha">
+            </div>
+            <div class="details">
+                <h3>Mocha ₱85</h3>
+                <p>Caffè Mocha. Our rich, full-bodied espresso combined with bittersweet mocha sauce and steamed milk, then topped with sweetened</p>
+                <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+            </div>
+        </div>
+        <div class="card card4">
+        <div class="container">
+        <img src="./assets/coffeeamericano.jpg" class="img1" alt="coffeemamericano">
+        </div>
+        <div class="details">
+        <h3>Coffee Americano ₱100</h3>
+        <p>A Café Americano, or what we just call an Americano, combines freshly pulled shots of espresso with hot water to achieve the size of a standard cup of brewed coffee.</p>
+        <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+        <div class="card card5">
+        <div class="container">
+        <img src="./assets/capuccino.jpeg" class="img1" alt="coffeecapuccino">
+        </div>
+        <div class="details">
+        <h3>Coffee Cappuccino ₱90</h3>
+        <p>Italian cappuccino and latte art are icons of Italy worldwide. Here's how to choose the perfect coffee blend for a perfect italian cappuccino.</p>
+        <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+        </div>
+    </div>
+    <div class="card card6">
+    <div class="container">
+    <img src="./assets/glace.jpeg" class="img1" alt="glace">
+    </div>
+    <div class="details">
+    <h3>Coffee Glace ₱150</h3>
+    <p>Coffee Glace (or ice cream coffee float) is an easy cold drink made with ice cream, instant coffee and milk. </p>
+    <p><a href="checkout.html" class="mybutton">BUY NOW!</a></p>
+    </div>
+    </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+</body>
+</html>

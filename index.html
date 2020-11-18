@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo"><img src="20201117_142751.jpg"></li>
+        <li class="items"><a href="index.html"">Home</a></li>
+        <li class="items"><a href="shop.html">Shop</a></li>
+        <li class="items"><a href="About.html">About Us</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+<br>
+<br>
+<br>
+<h1 id="head1" align="center">Welcome to Coffee Shop</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+   <div class="content">
+   <h1 id="contentheading">What's New?</h1>
+   <p align="center">Available Now</p>
+   <div class="images" align="center"> <img src="./assets/poster.jpg" class="center"> </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+ <!-- Footer -->
+ <footer class="footerclass">
+ <!-- Copyright -->
+ <div class="footer-copyright text-center py-3">© 2020 Copyright:
+ <a class="hrefooter" href="#">Coffee House</a>
+ </div>
+ <!-- Copyright -->
+ </footer>
+</body>
+</html>
